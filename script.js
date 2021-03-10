@@ -7,7 +7,7 @@ const careerPredictor = (arr1, arr2, arr3) => {
     let randomOccupation = arr2[Math.floor(Math.random() * 3)];
     let randomSalary = arr3[Math.floor(Math.random() * 3)]
 
-    console.log(`Your fortune tells me you will become a ${randomPersonality} ${randomOccupation} next year. Your starting salary will be $${randomSalary}!`);
+    return `Your fortune tells me you will become a ${randomPersonality} ${randomOccupation} next year. Your starting salary will be $${randomSalary}!`;
 }
 
 console.log(careerPredictor(personality, occupation, salary));
