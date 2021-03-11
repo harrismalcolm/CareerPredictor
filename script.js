@@ -9,4 +9,4 @@ const careerPredictor = () => {
     return `Your fortune tells me you will become a ${randomPersonality} ${randomOccupation} next year. Your starting salary will be $${randomSalary}!`;
 }
 
-console.log(careerPredictory());
+console.log(careerPredictor());
